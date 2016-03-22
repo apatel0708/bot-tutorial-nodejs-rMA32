@@ -35,11 +35,6 @@ function respond() {
     postMessage("http://daddyleagues.com/FBOS53/team/"+request.text.substring(5,8)+"/depthchart");
     this.res.end();
   } 
-  else if(request.text && botEyes.test(request.text)) {
-    this.res.writeHead(200);
-    postMessage("https://i.groupme.com/918x720.png.5db1cec4314a4babb84ac84968916756");
-    this.res.end();
-  } 
   else if(request.text && botRegexSalt.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://i.imgur.com/B5BSVqH.png");
