@@ -19,7 +19,7 @@ function respond() {
     postMessage(cool());
     this.res.end();
   }
-  else if () {
+  else if (request.text && botDoc.test(request.text)) {
     this.res.writeHead(200);
     postMessage("http://cdn.meme.am/instances/500x/53038790.jpg");
     this.res.end();
