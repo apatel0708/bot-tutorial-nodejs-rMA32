@@ -26,7 +26,7 @@ function respond() {
   }
   else if (request.text && botSd.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://www.eonline.com/eol_images/Entire_Site/2014616/rs_634x987-140716105224-634-the-rock-fanny-pack.ls.71614.jpg");
+    postMessage("http://i.imgur.com/buNql4M.png");
     this.res.end();
   }
   else if (request.text && botSf.test(request.text)) {
