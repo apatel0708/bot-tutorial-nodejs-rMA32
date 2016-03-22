@@ -21,7 +21,7 @@ function respond() {
   }
   else if (request.text && botSf.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://lh3.googleusercontent.com/LdHq6Z6cyZG-RJQglZK5X98hOrQv9CInJ8yrG4J714emLOVdio2fduEl_MCx0Wa3TD1t-g=s85");
+    postMessage("http://viralicious.co/wp-content/uploads/2015/10/short-funny-lawyer-jokes.png");
     this.res.end();
     
   }
