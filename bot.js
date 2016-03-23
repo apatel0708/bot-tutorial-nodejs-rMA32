@@ -19,6 +19,11 @@ function respond() {
     postMessage(cool());
     this.res.end();
   }
+  else if(request.text && botRegexSC.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("http://daddyleagues.com/FBOS53/team/"+request.text.substring(5,8)+"/schedule");
+    this.res.end();
+  }
     else if (request.text && botBaseball.test(request.text)) {
     this.res.writeHead(200);
     postMessage("http://24.media.tumblr.com/tumblr_l1vkvxS0zo1qa9armo1_500.jpg");
@@ -70,11 +75,6 @@ function respond() {
     postMessage("https://i.groupme.com/220x147.jpeg.a2dd2add32b14fff9e329535186d793c.large");
     this.res.end();
   } 
-  else if(request.text && botRegexSC.test(request.text)) {
-    this.res.writeHead(200);
-    postMessage("http://daddyleagues.com/FBOS53/team/"+request.text.substring(5,8)+"/schedule");
-    this.res.end();
-  }
   else if(request.text && botRegexP.test(request.text)) {
     this.res.writeHead(200);
     var req = request.text.substring(5,request.text.length);
