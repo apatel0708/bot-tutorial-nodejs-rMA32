@@ -21,7 +21,11 @@ function respond() {
   }
   else if(request.text && botRegexSC.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://daddyleagues.com/FBOS53/team/"+request.text.substring(5,8)+"/schedule");
+    if(!request.text.substring(5,8)) {
+      postMessage("https://www.daddyleagues.com/FBOS53/schedules");
+    } else {
+      postMessage("http://daddyleagues.com/FBOS53/team/"+request.text.substring(5,8)+"/schedule");
+    }
     this.res.end();
   }
     else if (request.text && botBaseball.test(request.text)) {
