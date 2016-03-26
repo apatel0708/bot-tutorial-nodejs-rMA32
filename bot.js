@@ -184,7 +184,7 @@ function respond() {
         postMessage("https://www.twitch.tv/pugnok");
       }
       else if (team == "jac") {
-        
+        postMessage("https://www.twitch.tv/KMac44");
       }
       else if (team == "kc") {
         
