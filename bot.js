@@ -5,7 +5,7 @@ var botID = process.env.BOT_ID;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
-      botRegex = /^\/cool guy/; botRegexDLRecAvg = /^\/rec avg/;  botRegexDL = /^\/DDL/i;botRegexSalt = /^\/salt/;botRegexRules = /^\/rules/
+      botStream = /^\/st/i;botRegex = /^\/cool guy/; botRegexDLRecAvg = /^\/rec avg/;  botRegexDL = /^\/DDL/i;botRegexSalt = /^\/salt/;botRegexRules = /^\/rules/
       botRegexAd=/^\/advance/;botRegexGTA = /^\/gta/; botRegexSC = /^\/SDL/i; botODB = /(.*\s+)(.*odb)(\s+.*)/i; botDuck = /^\/duck/;
       botRegexP = /^\/PDL/i;  botRegexTw = /^\/twitch/i; botRegexSb = /^\/sub/; botRegexSh = /^\/shrug/; botRegexWk = /^\/users/; botRegexCC = /^\/cc/;
       botRegexSiege = /^\/siege/; botDoc = /^\/doc/; botSf = /^\/sf/;  botSd = /^\/sd/;  botBaseball = /^\/baseball/; botSteve = /^\/steve/;
@@ -135,6 +135,109 @@ function respond() {
   else if(request.text && botSteve.test(request.text)) {
     this.res.writeHead(200);
     postMessage("You Disgusting Fuck");
+    this.res.end();
+  }
+    else if(request.text && botStream.test(request.text)) {
+    this.res.writeHead(200);
+    var team = request.text.substring(4,7);
+    if(team) {
+      if (team == "ari") {
+        
+      }
+      else if (team == "atl") {
+        
+      }
+      else if (team == "bal") {
+        
+      }
+      else if (team == "buf") {
+        
+      }
+      else if (team == "car") {
+        postMessage("https://www.twitch.tv/newtonless_panthers");
+      }
+      else if (team == "chi") {
+        
+      }
+      else if (team == "cin") {
+        
+      }
+      else if (team == "cle") {
+        
+      }
+      else if (team == "dal") {
+        
+      }
+      else if (team == "den") {
+        
+      }
+      else if (team == "det") {
+        postMessage("https://www.youtube.com/channel/UCh4--hcRHxKmOn5BHIy3GyA");
+      }
+      else if (team == "gb") {
+        
+      }
+      else if (team == "hou") {
+        
+      }
+      else if (team == "ind") {
+        
+      }
+      else if (team == "jac") {
+        
+      }
+      else if (team == "kc") {
+        
+      }
+      else if (team == "mia") {
+        
+      }
+      else if (team == "min") {
+        
+      }
+      else if (team == "ne") {
+        postMessage("https://www.twitch.tv/AdmiralRunBad");
+      }
+      else if (team == "no") {
+        
+      }
+      else if (team == "nyg") {
+        
+      }
+      else if (team == "nyj") {
+        
+      }
+      else if (team == "oak") {
+        
+      }
+      else if (team == "phi") {
+        
+      }
+      else if (team == "pit") {
+        postMessage("https://www.twitch.tv/kingofkings412");
+      }
+      else if (team == "sd") {
+        postMessage("https://www.youtube.com/user/SteVenSD420420");
+      }
+      else if (team == "sf") {
+        postMessage("https://www.twitch.tv/aureateone");
+      }
+      else if (team == "sea") {
+        
+      }
+      else if (team == "stl") {
+        
+      }
+      else if (team == "tb") {
+        postMessage("https://www.twitch.tv/nish_the_nub");
+      }
+      else if (team == "ten") {
+        
+      }
+      else if (team == "was") {
+        postMessage("http://twitch.tv/aye_yo_b_");
+      }
+    }
     this.res.end();
   }
   else {
