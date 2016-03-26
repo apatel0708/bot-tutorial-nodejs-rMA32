@@ -181,7 +181,7 @@ function respond() {
         
       }
       else if (team == "ind") {
-        
+        postMessage("https://www.twitch.tv/pugnok");
       }
       else if (team == "jac") {
         
