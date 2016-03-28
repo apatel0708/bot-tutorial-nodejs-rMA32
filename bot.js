@@ -4,7 +4,7 @@ var cool = require('cool-ascii-faces');
 var botID = process.env.BOT_ID;
 
 function respond() {
-  var request = JSON.parse(this.req.chunks[0]),
+  var request = JSON.parse(this.req.chunks[0]),botHugs = /^\/hugs/;
       botStream = /^\/st/i;botRegex = /^\/cool guy/; botRegexDLRecAvg = /^\/rec avg/;  botRegexDL = /^\/DDL/i;botRegexSalt = /^\/salt/;botRegexRules = /^\/rules/
       botRegexAd=/^\/advance/;botRegexGTA = /^\/gta/; botRegexSC = /^\/SDL/i; botODB = /(.*\s+)(.*odb)(\s+.*)/i; botDuck = /^\/duck/;
       botRegexP = /^\/PDL/i;  botRegexTw = /^\/twitch/i; botRegexSb = /^\/sub/; botRegexSh = /^\/shrug/; botRegexWk = /^\/users/; botRegexCC = /^\/cc/;
@@ -130,6 +130,11 @@ function respond() {
       postMessage(siege3)
     else
       postMessage(siege2);
+    this.res.end();
+  }
+  else if(request.text && botHugs.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("https://i.groupme.com/377x210.gif.763efc977cec43ca89a14158953e923a");
     this.res.end();
   }
   else if(request.text && botSteve.test(request.text)) {
