@@ -165,7 +165,7 @@ function respond() {
         postMessage("https://www.twitch.tv/harriman8");
       }
       else if (team == "cin") {
-        postMessage("NO FUCKING STREAM!");
+        postMessage("https://www.twitch.tv/aamigo72");
       }
       else if (team == "cle") {
         postMessage("https://www.twitch.tv/wrjboy28");
@@ -183,7 +183,7 @@ function respond() {
         postMessage("https://www.twitch.tv/aamigo72");
       }
       else if (team == "hou") {
-        postMessage("NO FUCKING STREAM!");
+        postMessage("https://www.youtube.com/user/bullywully27");
       }
       else if (team == "ind") {
         postMessage("https://www.twitch.tv/pugnok");
@@ -204,7 +204,7 @@ function respond() {
         postMessage("https://www.twitch.tv/AdmiralRunBad");
       }
       else if (team == "no") {
-        postMessage("NO FUCKING STREAM!");
+        postMessage("https://www.twitch.tv/im2greedy");
       }
       else if (team == "nyg") {
         postMessage("NO FUCKING STREAM!");
