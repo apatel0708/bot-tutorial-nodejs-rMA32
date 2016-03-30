@@ -213,7 +213,7 @@ function respond() {
         
       }
       else if (team == "oak") {
-        
+         postMessage("https://www.twitch.tv/rayboskii");
       }
       else if (team == "phi") {
         postMessage("https://www.twitch.tv/ochoboy");
@@ -228,7 +228,7 @@ function respond() {
         postMessage("https://www.twitch.tv/aureateone");
       }
       else if (team == "sea") {
-        
+         postMessage("https://www.twitch.tv/shayafar");
       }
       else if (team == "stl") {
         
@@ -237,7 +237,7 @@ function respond() {
         postMessage("https://www.twitch.tv/nish_the_nub");
       }
       else if (team == "ten") {
-        
+         postMessage("https://www.twitch.tv/james37129");
       }
       else if (team == "was") {
         postMessage("http://twitch.tv/aye_yo_b_");
