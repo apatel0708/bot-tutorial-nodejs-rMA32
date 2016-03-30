@@ -231,7 +231,7 @@ function respond() {
          postMessage("https://www.twitch.tv/shayafar");
       }
       else if (team == "stl") {
-        postMessage("NO FUCKING STREAM!");
+        postMessage("https://www.twitch.tv/phenom8524");
       }
       else if (team == "tb") {
         postMessage("https://www.twitch.tv/nish_the_nub");
