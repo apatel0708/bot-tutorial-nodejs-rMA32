@@ -174,7 +174,7 @@ function respond() {
         postMessage("https://www.twitch.tv/hurricane3737");
       }
       else if (team == "den") {
-        postMessage("NO FUCKING STREAM!");
+        postMessage("https://www.twitch.tv/jokesonyoubats5792");
       }
       else if (team == "det") {
         postMessage("https://www.youtube.com/channel/UCh4--hcRHxKmOn5BHIy3GyA");
