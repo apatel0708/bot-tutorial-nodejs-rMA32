@@ -147,43 +147,43 @@ function respond() {
     var team = request.text.substring(4,7);
     if(team) {
       if (team == "ari") {
-        
+        postMessage("");
       }
       else if (team == "atl") {
-        
+        postMessage("https://www.twitch.tv/detroitginger44");
       }
       else if (team == "bal") {
-        
+        postMessage("https://www.youtube.com/channel/UC1Wmb-MORXnuLLIcmuafgwg");
       }
       else if (team == "buf") {
-        
+        postMessage("NO FUCKING STREAM!");
       }
       else if (team == "car") {
         postMessage("https://www.twitch.tv/newtonless_panthers");
       }
       else if (team == "chi") {
-        
+        postMessage("https://www.twitch.tv/harriman8");
       }
       else if (team == "cin") {
-        
+        postMessage("NO FUCKING STREAM!");
       }
       else if (team == "cle") {
-        
+        postMessage("https://www.twitch.tv/wrjboy28");
       }
       else if (team == "dal") {
-        
+        postMessage("https://www.twitch.tv/hurricane3737");
       }
       else if (team == "den") {
-        
+        postMessage("NO FUCKING STREAM!");
       }
       else if (team == "det") {
         postMessage("https://www.youtube.com/channel/UCh4--hcRHxKmOn5BHIy3GyA");
       }
       else if (team == "gb") {
-        
+        postMessage("https://www.twitch.tv/aamigo72");
       }
       else if (team == "hou") {
-        
+        postMessage("NO FUCKING STREAM!");
       }
       else if (team == "ind") {
         postMessage("https://www.twitch.tv/pugnok");
@@ -192,25 +192,25 @@ function respond() {
         postMessage("https://www.twitch.tv/KMac44");
       }
       else if (team == "kc") {
-        
+        postMessage("NO FUCKING STREAM!");
       }
       else if (team == "mia") {
-        
+        postMessage("NO FUCKING STREAM!");
       }
       else if (team == "min") {
-        
+        postMessage("NO FUCKING STREAM!");
       }
       else if (team == "ne") {
         postMessage("https://www.twitch.tv/AdmiralRunBad");
       }
       else if (team == "no") {
-        
+        postMessage("NO FUCKING STREAM!");
       }
       else if (team == "nyg") {
-        
+        postMessage("NO FUCKING STREAM!");
       }
       else if (team == "nyj") {
-        
+        postMessage("NO FUCKING STREAM!");
       }
       else if (team == "oak") {
          postMessage("https://www.twitch.tv/rayboskii");
@@ -231,7 +231,7 @@ function respond() {
          postMessage("https://www.twitch.tv/shayafar");
       }
       else if (team == "stl") {
-        
+        postMessage("NO FUCKING STREAM!");
       }
       else if (team == "tb") {
         postMessage("https://www.twitch.tv/nish_the_nub");
