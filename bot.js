@@ -216,7 +216,7 @@ function respond() {
         
       }
       else if (team == "phi") {
-        
+        postMessage("https://www.twitch.tv/ochoboy");
       }
       else if (team == "pit") {
         postMessage("https://www.twitch.tv/kingofkings412");
