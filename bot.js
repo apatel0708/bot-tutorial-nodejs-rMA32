@@ -234,7 +234,7 @@ function respond() {
         postMessage("https://www.twitch.tv/phenom8524");
       }
       else if (team == "tb") {
-        postMessage("https://www.twitch.tv/nish_the_nub");
+        postMessage("https://www.youtube.com/channel/UCm2k0levfVZhA84DU2-ZUDw");
       }
       else if (team == "ten") {
          postMessage("https://www.twitch.tv/james37129");
