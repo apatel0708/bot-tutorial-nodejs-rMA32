@@ -195,7 +195,7 @@ function respond() {
         postMessage("NO FUCKING STREAM!");
       }
       else if (team == "mia") {
-        postMessage("NO FUCKING STREAM!");
+        postMessage("https://www.youtube.com/channel/UCm2k0levfVZhA84DU2-ZUDw");
       }
       else if (team == "min") {
         postMessage("NO FUCKING STREAM!");
@@ -234,7 +234,7 @@ function respond() {
         postMessage("https://www.twitch.tv/phenom8524");
       }
       else if (team == "tb") {
-        postMessage("https://www.youtube.com/channel/UCm2k0levfVZhA84DU2-ZUDw");
+        postMessage("No Fucking stream!");
       }
       else if (team == "ten") {
          postMessage("https://www.twitch.tv/james37129");
