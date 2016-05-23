@@ -176,7 +176,7 @@ function respond() {
         postMessage("https://www.youtube.com/channel/UCh4--hcRHxKmOn5BHIy3GyA");
       }
       else if (team == "gb") {
-        postMessage("https://www.twitch.tv/aamigo72");
+        postMessage("http://www.twitch.tv/mikeyak59");
       }
       else if (team == "hou") {
         postMessage("https://www.youtube.com/user/bullywully27");
